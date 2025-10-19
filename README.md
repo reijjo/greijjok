@@ -6,7 +6,7 @@ A full-stack app for automating faceless social media content.
 
 ### Live
 
-- live link here when relative
+- live link here when available
 
 ### Locally
 
