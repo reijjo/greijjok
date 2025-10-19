@@ -19,7 +19,7 @@ const bebasNeue = Bebas_Neue({
 export const metadata: Metadata = {
   title: "Greijjok - Viral Social Media Posts",
   description:
-    "Effortless create faceless social media posts with AI-generated captions and images, Perfect for creators and marketers on platforms like Instagram, TikTok and more",
+    "Effortlessly create faceless social media posts with AI-generated captions and images, Perfect for creators and marketers on platforms like Instagram, TikTok and more",
   keywords: [
     "Ai content creation",
     "faceless social media",

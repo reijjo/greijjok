@@ -1,4 +1,4 @@
-import Button from "@/components/ui/button/Button";
+import LinkButton from "@/components/ui/button/LinkButton";
 import "./Navbar.css";
 import Link from "next/link";
 
@@ -7,15 +7,17 @@ export default function Navbar() {
     <nav>
       <div className="nav-content wrapper">
         <div className="nav-logo">
-          <h2>Greijjok</h2>
+          <Link href="/">
+            <h2>Greijjok</h2>
+          </Link>
         </div>
         <div className="nav-links">
-          <Link href="/login">
-            <Button className="btn-outline nav-link-button">Login</Button>
-          </Link>
-          <Link href="/register">
-            <Button className="btn-primary nav-link-button">Register</Button>
-          </Link>
+          <LinkButton href="/login" extraClass="btn-outline">
+            Login
+          </LinkButton>
+          <LinkButton href="/register" extraClass="btn-primary">
+            Register
+          </LinkButton>
         </div>
       </div>
     </nav>

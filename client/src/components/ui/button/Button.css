@@ -1,7 +1,10 @@
 button {
   all: unset;
   box-sizing: border-box;
-  padding: 0.5rem 1rem;
+}
+
+.btn {
+  padding-inline: 1rem;
   border-radius: 0.25rem;
   border: 1px solid transparent;
   cursor: pointer;
@@ -36,4 +39,12 @@ button {
   &:hover {
     border-color: rgba(65, 182, 230, 1);
   }
+}
+
+.big-btn {
+  padding: 1rem 2rem;
+  width: 100%;
+  max-width: 400px;
+  font-size: 1.25rem;
+  height: 4rem;
 }
