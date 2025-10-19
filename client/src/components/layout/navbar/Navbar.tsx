@@ -12,10 +12,10 @@ export default function Navbar() {
           </Link>
         </div>
         <div className="nav-links">
-          <LinkButton href="/login" extraClass="btn-outline">
+          <LinkButton href="/login" extraClass="btn-outline nav-link-button">
             Login
           </LinkButton>
-          <LinkButton href="/register" extraClass="btn-primary">
+          <LinkButton href="/register" extraClass="btn-primary nav-link-button">
             Register
           </LinkButton>
         </div>

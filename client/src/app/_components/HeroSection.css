@@ -41,6 +41,7 @@
 }
 
 .hero-header {
+  color: var(--accent-200);
   background: linear-gradient(
     to right,
     var(--accent-200),

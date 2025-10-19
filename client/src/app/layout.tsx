@@ -21,7 +21,7 @@ export const metadata: Metadata = {
   description:
     "Effortlessly create faceless social media posts with AI-generated captions and images, Perfect for creators and marketers on platforms like Instagram, TikTok and more",
   keywords: [
-    "Ai content creation",
+    "AI content creation",
     "faceless social media",
     "content automation",
   ],
