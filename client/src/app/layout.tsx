@@ -35,8 +35,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${bebasNeue.variable} ${outfit.variable}`}>
+        <Navbar />
         <div className="layout">
-          <Navbar />
           {children}
           <Footer />
         </div>
