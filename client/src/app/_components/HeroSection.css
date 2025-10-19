@@ -5,7 +5,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background: url("/images/landing/somebg.webp") no-repeat center / cover;
+  background: url("/images/landing/somebg.jpg") no-repeat center / cover;
   position: relative;
 
   &::before {
