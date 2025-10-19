@@ -1,0 +1,57 @@
+.hero-section {
+  width: 100%;
+  min-height: 100dvh;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  background: url("/images/landing/hero.svg") no-repeat center / cover;
+  position: relative;
+
+  &::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.75);
+    z-index: 0;
+  }
+}
+
+.hero-desc {
+  z-index: 1;
+  padding: 4rem 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  width: 100%;
+
+  text-wrap: balance;
+  text-align: center;
+
+  & a {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.hero-header,
+.hero-sub-header {
+  width: 80%;
+}
+
+.hero-header {
+  color: var(--accent-200);
+  background: linear-gradient(
+    to right,
+    var(--accent-200),
+    var(--secondary-200)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.hero-sub-header {
+  font-size: 1.25rem;
+}
